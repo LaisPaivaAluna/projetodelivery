@@ -1,0 +1,174 @@
+.status {
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 6px;
+    color: white;
+    display: inline-block;
+}
+
+.status.pendente {
+    background-color: orange;
+}
+
+.status.aceito {
+    background-color: green;
+}
+
+.status.cancelado {
+    background-color: red;
+}
+
+
+/* styles.css */
+body {
+  background-color: #000000;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-select, .form-control {
+  border-radius: 8px;
+}
+
+
+/* CAPA E LOGO */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-select, .form-control {
+    border-radius: 8px;
+  }
+  
+
+
+  body {
+    scroll-behavior: smooth;
+  }
+  
+  .btn-lg {
+    font-size: 1.2rem;
+  }
+  
+  .logo-img {
+    width: 100px;   /* ou 100px, ou 150px, depende do que ficar bonito */
+    height:px;
+    object-fit: cover;
+  }
+  
+  
+  
